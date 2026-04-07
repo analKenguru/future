@@ -51,6 +51,6 @@
 @use 'blocks/accordion-group';
 @use 'blocks/contacts';
 
-.hero {
+.hero, .section {
   display: none !important;
 }

@@ -4,12 +4,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  row-gap: rem(60);
+  row-gap: rem(40);
   max-width: rem(500);
   margin-inline: auto;
 
   @include laptop {
-    row-gap: rem(50);
+    row-gap: rem(30);
   }
 
   &__author {
@@ -32,5 +32,6 @@
     @include abs-center;
 
     top: 0;
+    
   }
 }
