@@ -8,6 +8,11 @@
     @include laptop {
       column-gap: rem(8);
     }
+
+    @include mobile {
+      justify-content: center;
+      column-gap: rem(14);
+    }
   }
 
   &__button {
